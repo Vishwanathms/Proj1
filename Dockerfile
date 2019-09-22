@@ -4,4 +4,4 @@ WORKDIR /app
 
 ADD . /app
 
-CMD {"java", "Simple"}
+CMD ["java", "Simple"]
